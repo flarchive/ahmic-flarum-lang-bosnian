@@ -1,0 +1,26 @@
+{
+    "name": "ahmic/flarum-lang-bosnian",
+    "type": "flarum-extension",
+    "description": "Bosnian language pack",
+    "homepage": "https://github.com/ahmic/flarum-lang-bosnian",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Bosnian",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bs",
+            "title": "Bosnian"
+        }
+    }
+}
